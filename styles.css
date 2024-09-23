@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(background.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; 
+    
+}
+
+header {
+    background-color: rgba(180, 245, 191, 0.8);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px; /* Adjust logo size */
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+#about {
+    background-color: rgba(255, 255, 255, 0.438); /* Slightly transparent white background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 30px; /* Padding around the content */
+    margin: 20px auto; /* Center the section */
+    max-width: 800px; /* Limit width for better readability */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+#about h2 {
+    font-size: 2.5em; /* Larger font for the heading */
+    color: #41f16d; /* Pink color */
+    margin-bottom: 20px; /* Space below the heading */
+    text-align: center; /* Center the heading */
+}
+
+#about p {
+    font-size: 1.2em; /* Slightly larger font for paragraph text */
+    color: #333; /* Dark gray for better readability */
+    line-height: 1.6; /* Increased line height for readability */
+    margin: 15px 0; /* Space above and below paragraphs */
+}
+
+/* Optional: Add a hover effect for paragraphs */
+#about p:hover {
+    color: #6dec69; /* Change color on hover */
+    transition: color 0.3s; /* Smooth transition */
+}
+
+
+
+
+
+
+footer {
+    background-color: rgba(180, 245, 191, 0.8);
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
